@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "h-chat"
+version = "0.1.0"
+description = ""
+authors = ["h0s0r <hardidar.ldh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.27"
+langchain-openai = "^0.3.33"
+openai = "^1.108.0"
+python-dotenv = "^1.1.1"
+streamlit = "^1.49.1"
+tavily-python = "^0.7.12"
+langchain-community = "^0.3.29"
+langchain-google-genai = "^2.1.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
