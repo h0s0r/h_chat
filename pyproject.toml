@@ -7,14 +7,18 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-langchain = "^0.3.27"
-langchain-openai = "^0.3.33"
-openai = "^1.108.0"
 python-dotenv = "^1.1.1"
 streamlit = "^1.49.1"
 tavily-python = "^0.7.12"
+wikipedia = "^1.4.0"
+langchain = "^0.3.27"
+langchain-core = "^0.3.76"
 langchain-community = "^0.3.29"
 langchain-google-genai = "^2.1.12"
+openai = "^1.108.1"
+langchain-openai = "^0.3.33"
+langchain-experimental = "^0.3.4"
+langchain-google-vertexai = "^2.1.2"
 
 
 [build-system]
